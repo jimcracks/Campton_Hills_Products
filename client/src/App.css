@@ -1,0 +1,142 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.image-dropzone {
+
+    height: 125px;
+    width: 175px;
+    border-color: olive;
+    border: solid;
+    border-width: 2px;
+}
+
+.image-item {
+    display: flex;
+    margin: 10px 0;
+}
+
+.image-item__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+body {
+    background-color: #2a3439;
+}
+.ant-layout-content {
+
+}
+
+.column {
+    border-style: solid;
+    border-block-width: 8px;
+    border-color: #2a3439;
+}
+
+ant-row Row-Content {
+ 
+}
+.layout {
+
+}
+
+.column {
+    padding: 20px;
+}
+
+ 
+.column-form {
+    padding: 20px;
+    padding-top: 25px;
+}
+
+ .details-image {
+    height: 100px;
+}
+
+.Header {
+    background-color: #2a3439;
+    height: 70px;
+    padding-top: 0px;
+}
+
+.drop-message {
+    padding: 10px;
+    padding-top: 30px;
+    height: 70px !important;
+}
+
+#drop-region {
+    height: 290px;
+    padding: 10px;
+}
+
+.title {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.bar-group .name-label {
+    text-anchor: end;
+    font-weight: 400;
+    font-size: 1em;
+    fill: #333;
+}
+
+.bar-group .value-label {
+    text-anchor: end;
+    fill: #fff;
+    font-weight: 900;
+    font-size: 0.7em;
+}
+
+.container .bar-group {
+    transition: opacity 0.3s;
+}
+
+/* Fade bars when the chart is hovered */
+.container:hover .bar-group {
+    opacity: 0.3;
+}
+
+/* But don't fade the hovered bar... */
+.container .bar-group:hover {
+    opacity: 1;
+}
+
+    .container .bar-group:hover .name-label {
+        font-weight: 200;
+    }
+
+    .container .bar-group:hover .value-label {
+        font-size: 0.5em;
+    }
+
+.fade_rule {
+    height: 2px;
+    background-color: #E6E6E6;
+    width: 66.0em;
+    margin: 0 auto;
+    background-image: linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -o-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -moz-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -ms-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+}
