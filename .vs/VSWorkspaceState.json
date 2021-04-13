@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\client",
-    "\\client\\public",
-    "\\client\\src",
-    "\\server",
-    "\\server\\bin",
-    "\\server\\routes"
+    "\\React UI",
+    "\\React UI\\server"
   ],
-  "SelectedNode": "\\client\\src\\App.js",
+  "SelectedNode": "\\React UI",
   "PreviewInSolutionExplorer": false
 }
